@@ -64,7 +64,7 @@ function changeAppearance(appearance) {
         buttons.forEach(btn => btn.classList.remove('pressed'));
   const image = document.querySelector('#image-container img');
        if (appearance === 'current') { image.src = 'Images/Sabrina.png';
-} else if (appearance === 'former') { image.src = 'Images/Presab.png'; }
+} else if (appearance === 'former') { image.src = 'Images/Prisab.png'; }
   const pressedButton = Array.from(buttons).find(button => button.innerText.toLowerCase().includes(appearance)); pressedButton.classList.add('pressed'); }
   const amb = new Audio('/irida/char.ogg'); amb.loop = true; setTimeout(()=>{amb.play()},256);
 </script>
