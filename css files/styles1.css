@@ -2136,11 +2136,7 @@ textarea.w-input, textarea.w-select {
   background-clip: border-box;
   border: 1px solid #000000;
   border-radius: 2px;
-  margin-top: 45px;
-  margin-left: 395px;
-  margin-right: 350px;
-  padding-top: 220px;
-  padding-bottom: 300px;
+  padding-top: 70px;
 }
 
 #subtextred {
