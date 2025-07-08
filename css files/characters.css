@@ -2120,15 +2120,17 @@ textarea.w-input, textarea.w-select {
 }
 
 .div-block {
+  display: flex;
   text-align: center;
   -webkit-text-fill-color: inherit;
-  mix-blend-mode: normal;
-  background-image: url('Images/Flesh-Paper.png');
-  background-color: #1c0000;
+  background: linear-gradient(0deg, rgba(69, 0, 0) 0, rgba(57, 0, 0, .6) 69%), #1c0000, url('../Images/flesh image.png')  right / cover;
   background-position: 0 0;
   background-size: auto;
   background-clip: border-box;
-  border: 1px solid #900808;
+  border: 2px inset #600;
+  outline: #300 solid 1px;
+  image-rendering: pixelated;
+  backdrop-filter: blur(3px);
   border-radius: 2px;
   margin-left: 195px;
   margin-right: 195px;
