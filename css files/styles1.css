@@ -2126,6 +2126,23 @@ textarea.w-input, textarea.w-select {
   position: relative;
 }
 
+.div-location {
+  text-align: center;
+  -webkit-text-fill-color: inherit;
+  mix-blend-mode: normal;
+  background-color: #0000;
+  background-position: 0 0;
+  background-size: auto;
+  background-clip: border-box;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  margin-top: 45px;
+  margin-left: 395px;
+  margin-right: 350px;
+  padding-top: 220px;
+  padding-bottom: 300px;
+}
+
 #subtextred {
     transform: translate(-50%) translateY(8px);
     text-align: end;
