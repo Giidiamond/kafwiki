@@ -2123,6 +2123,7 @@ textarea.w-input, textarea.w-select {
   text-align: center;
   -webkit-text-fill-color: inherit;
   mix-blend-mode: normal;
+  background-image: url('Images/Flesh-Paper.png');
   background-color: #1c0000;
   background-position: 0 0;
   background-size: auto;
