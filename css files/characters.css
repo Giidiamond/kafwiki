@@ -2124,13 +2124,11 @@ textarea.w-input, textarea.w-select {
   -webkit-text-fill-color: inherit;
   mix-blend-mode: normal;
   background-color: #1c0000;
-  /* background-image: url("https://cdn.prod.website-files.com/68688d682b00e83820cb66ca/68693b488a1487ab088b1182_5a934e84f67d2a61a118ec95b1d6cb74.gif"); */
   background-position: 0 0;
   background-size: auto;
   background-clip: border-box;
-  /* border: 1px solid #ff0e0e; */
+  border: 1px solid #900808;
   border-radius: 2px;
-  /* margin-top: 45px; */
   margin-left: 195px;
   margin-right: 195px;
 }
