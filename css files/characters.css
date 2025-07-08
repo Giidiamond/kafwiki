@@ -2203,7 +2203,6 @@ textarea.w-input, textarea.w-select {
     padding: 0 10px;
     margin: 0 20px;
     border-left: 1px solid #100;
-    right: 180px;
     position: absolute;
 }
 
