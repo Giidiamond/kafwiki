@@ -2093,6 +2093,9 @@ textarea.w-input, textarea.w-select {
   grid-auto-columns: 1fr;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  left: 35px;
+  width: 100px;
 }
 
 .tabs-content {
