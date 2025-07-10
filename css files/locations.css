@@ -1978,7 +1978,7 @@ textarea.w-input, textarea.w-select {
   -webkit-text-fill-color: inherit;
   background-image: url("../Images/space image.png");
   background-clip: border-box;
-  backdrop-filter: brightness(0.5);
+  backdrop-filter: brightness(0.3)  saturate(0.0);
   font-family: 'I KNOW A GHOST';
 }
 
