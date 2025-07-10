@@ -2072,10 +2072,9 @@ textarea.w-input, textarea.w-select {
   grid-auto-columns: 1fr;
   justify-content: center;
   align-items: center;
-  min-width: 70px;
-  min-height: 75px;
-  display: block;
-  position: relative;
+  position: absolute;
+  left: 35px;
+  width: 100px;
 }
 
 .brand.w--current {
@@ -2094,9 +2093,6 @@ textarea.w-input, textarea.w-select {
   grid-auto-columns: 1fr;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  left: 35px;
-  width: 100px;
 }
 
 .tabs-content {
