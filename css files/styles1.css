@@ -2104,7 +2104,7 @@ textarea.w-input, textarea.w-select {
 
 .navbar {
   filter: drop-shadow(20px -14px 5px #000000b3);
-  background-image: url(Images/beans flesh.png);
+  background-image: url(../Images/beans flesh.png);
   background-color: #000;
   border: 1px #1d0000;
   border-radius: 0;
