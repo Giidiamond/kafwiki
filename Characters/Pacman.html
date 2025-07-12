@@ -14,11 +14,11 @@
 </head>
 <body class="body">
 <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
-            <a href="index" aria-current="page" class="brand w-nav-brand w--current"></a>
+            <a href="../index" aria-current="page" class="brand w-nav-brand w--current"></a>
             <nav role="navigation" class="w-nav-menu">
-                <a href="media" class="button-wiki w-button">Media</a>
-                <a href="characters" class="button-wiki w-button">Characters</a>
-                <a href="locations" class="button-wiki w-button">Locations</a>
+                <a href="../Media" class="button-wiki w-button">Media</a>
+                <a href="../Characters" class="button-wiki w-button">Characters</a>
+                <a href="../Locations" class="button-wiki w-button">Locations</a>
             </nav>
             <div class="w-nav-button">
                     <div class="w-icon-nav-menu"></div>
@@ -29,8 +29,8 @@
     <div id="image-frame">
         <div class="textbox">Appearance</div>
         <div class="appearance-buttons">
-            <button onclick="changeAppearance('current')" class="pressed">Służący</button>
-            <button onclick="changeAppearance('former')" class="">Oryginalny</button>
+            <button onclick="changeAppearance('Służący')" class="pressed">Służący</button>
+            <button onclick="changeAppearance('Oryginalny')" class="">Oryginalny</button>
         </div>
         <div id="image-container">
             <img src="Images/Pacman.png">
@@ -62,13 +62,13 @@
     </div>
 </div>
 
-<script> changeAppearance('current');
+<script> changeAppearance('Służący');
 function changeAppearance(appearance) {
   const buttons = document.querySelectorAll('.appearance-buttons button');
         buttons.forEach(btn => btn.classList.remove('pressed'));
   const image = document.querySelector('#image-container img');
-       if (appearance === 'current') { image.src = 'Images/Pacman.png';
-} else if (appearance === 'former') { image.src = 'Images/Prepac.png'; }
+       if (appearance === 'Służący') { image.src = '../Images/Pacman.png';
+} else if (appearance === 'Oryginalny') { image.src = '../Images/Prepac.png'; }
   const pressedButton = Array.from(buttons).find(button => button.innerText.toLowerCase().includes(appearance)); pressedButton.classList.add('pressed'); }
   const amb = new Audio('/irida/char.ogg'); amb.loop = true; setTimeout(()=>{amb.play()},256);
 </script>
