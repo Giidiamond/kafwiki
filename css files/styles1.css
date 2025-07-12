@@ -1757,6 +1757,8 @@ textarea.w-input, textarea.w-select {
 .w-nav-menu {
   float: right;
   position: relative;
+  right: 15px;
+  top: 10px;
 }
 
 [data-nav-menu-open] {
@@ -2079,6 +2081,7 @@ textarea.w-input, textarea.w-select {
   align-items: center;
   position: absolute;
   left: 35px;
+  top: 1px;
   width: 100px;
 }
 
@@ -2101,10 +2104,12 @@ textarea.w-input, textarea.w-select {
 
 .navbar {
   filter: drop-shadow(20px -14px 5px #000000b3);
+  background-image: url(Images/beans flesh.png);
   background-color: #000;
   border: 1px #1d0000;
   border-radius: 0;
-  box-shadow: inset 0 -1px 12px 10px #94000033;
+  box-shadow: inset 0 -1px 20px 20px #000000b3;
+  padding-bottom: 20px;
 }
 
 .div-block {
@@ -2172,23 +2177,17 @@ textarea.w-input, textarea.w-select {
 }
 
 .button-wiki {
-  opacity: 1;
-  color: #5f0000;
-  text-align: center;
-  vertical-align: super;
-  cursor: auto;
-  background-color: #130000;
-  border-bottom: 1px #390000;
-  margin-top: 12px;
-  margin-right: 11px;
-  padding-top: 15px;
-  padding-bottom: 15px;
   font-family: Iknowaghost, Verdana, sans-serif;
+  color: #5f0000;
+  background-color: #130000;
+  margin-top: 12px;
   font-size: 30px;
   font-weight: 400;
   line-height: 4px;
   text-decoration: none;
-  box-shadow: inset 9px 2px 15px -1px #98000033;
+  outline: #770000;
+  border: #350000 outset 1px;
+  box-shadow: inset 1px 1px 20px #000000;
 }
 
 .button-3 {
