@@ -65,8 +65,8 @@ function changeAppearance(appearance) {
   const buttons = document.querySelectorAll('.appearance-buttons button');
         buttons.forEach(btn => btn.classList.remove('pressed'));
   const image = document.querySelector('#image-container img');
-       if (appearance === 'current') { image.src = 'Images/Kasen.png';
-} else if (appearance === 'former') { image.src = 'Images/Prekasen.png'; }
+       if (appearance === 'current') { image.src = '../Images/Kasen.png';
+} else if (appearance === 'former') { image.src = '../Images/Prekasen.png'; }
   const pressedButton = Array.from(buttons).find(button => button.innerText.toLowerCase().includes(appearance)); pressedButton.classList.add('pressed'); }
   const amb = new Audio('/irida/char.ogg'); amb.loop = true; setTimeout(()=>{amb.play()},256);
 </script>
