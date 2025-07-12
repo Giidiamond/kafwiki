@@ -1767,6 +1767,8 @@ textarea.w-input, textarea.w-select {
 .w-nav-menu {
   float: right;
   position: relative;
+  right: 15px;
+  top: 10px;
 }
 
 [data-nav-menu-open] {
