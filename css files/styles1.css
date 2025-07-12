@@ -2081,10 +2081,10 @@ textarea.w-input, textarea.w-select {
   grid-auto-columns: 1fr;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  left: 35px;
-  top: 1px;
-  width: 100px;
+  position: absolute !important;
+  left: 35px !important;
+  top: 1px !important;
+  width: 100px !important;
 }
 
 .tabs-content {
