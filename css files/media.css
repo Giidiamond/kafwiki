@@ -2239,7 +2239,7 @@ textarea.w-input, textarea.w-select {
 
 .button-wiki {
   font-family: Iknowaghost, Verdana, sans-serif;
-  color: #5f0000;
+  color: red;
   background-color: #130000;
   margin-top: 12px;
   font-size: 30px;
