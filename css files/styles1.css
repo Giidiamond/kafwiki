@@ -1988,12 +1988,6 @@ textarea.w-input, textarea.w-select {
   font-family: 'I KNOW A GHOST';
 }
 
-.button, .button.w--current {
-  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
-  background-position: 0 0;
-  background-size: auto;
-}
-
 .link-block {
   background-image: url("https://cdn.prod.website-files.com/68688d682b00e83820cb66ca/68689685194ed8c27e644e13_191%20Sem%20T%C3%ADtulo_20250705000454.png");
   background-position: 50%;
