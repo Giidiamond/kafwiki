@@ -2130,6 +2130,120 @@ textarea.w-input, textarea.w-select {
   position: relative;
 }
 
+.div-block-chara {
+  text-align: center;
+  -webkit-text-fill-color: inherit;
+  mix-blend-mode: normal;
+  background-color: #1c0000;
+  background-position: 0 0;
+  background-size: auto;
+  background-clip: border-box;
+  border-radius: 2px;
+  margin-left: 195px;
+  margin-right: 195px;
+}
+
+.div-headerWiki {
+  border: 1px solid #700000;
+  border-radius: 2px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+.div-charaWiki {
+  border: 1px solid #700000;
+  border-radius: 2px;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-bottom: 75px;
+}
+
+.div-text {
+  color: #f11;
+  width: 1080px;
+  margin: 28px auto auto;
+  letter-spacing: -3px;
+  text-shadow: 0 4px 3px #000;
+}
+
+.charaFrame {
+    width: 160px;
+    overflow: hidden;
+    font-size: 16px !important;
+    font-family: 'Franklin Gothic Medium' !important;
+    position: relative;
+    border: 1px solid #500000;
+    box-shadow: 0 6px 9px #0004;
+    padding-inline: 3px;
+    line-height: 1.1 !important;
+    margin: 43px auto auto;
+    scale: 0.96;
+}
+
+.charTitle {
+    text-align: center;
+    color: #fff;
+    text-shadow: rgb(255, 0, 0) 0 2px 8px;
+    height: 18px;
+    border: 2px solid #000;
+    background-color: #3f0909;
+    font-weight: 700;
+}
+
+.text-content {
+  font-family: 'imprint mt shadow';
+  color: #d11;
+  padding: 10px 21px;
+  box-sizing: border-box;
+  font-size: 20px;
+  max-width: 1060px;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.3), 0px 4px 8px rgba(0, 0, 0, 0.8), 0px 3px 14px rgba(0, 0, 0, 0.3);
+}
+
+.text-entry {
+    border-bottom: solid 1px #900;
+    margin-bottom: 10px;
+    line-height: 33px;
+}
+
+#image-frame {
+    width: 220px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin: 0 20px;
+    border-left: 1px solid #100;
+    right: 180px;
+    position: absolute;
+}
+
+.textbox {
+    height: 19px;
+    width: 200px;
+    background: #e006;
+    border: inset 1px #e00;
+    color: #100;
+    margin-top: 25px;
+    text-align: center;
+    line-height: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.appearance-buttons {
+    display: flex;
+    margin: 1px -1px;
+    padding-left: 2px;
+}
+
+#image-container {
+    width: 200px;
+    min-height: 200px;
+    height: fit-content;
+    max-height: 239px;
+    overflow: hidden;
+    border: 1px solid #100;
+    background: #000;
+}
+
 .div-locations {
   text-align: center;
   -webkit-text-fill-color: inherit;
@@ -2151,6 +2265,18 @@ textarea.w-input, textarea.w-select {
     position: fixed;
     right: 530px;
     color: red;
+}
+
+.infobox {
+    height: 109px;
+    width: 200px;
+    background: #100a;
+    border: inset 1px #800;
+    color: #e00;
+    box-shadow: #100 0px 5px 7px -5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 12px;
 }
 
 #subtextred,#subtextred a {
@@ -2225,3 +2351,9 @@ textarea.w-input, textarea.w-select {
   text-decoration: none;
   box-shadow: inset 9px 2px 15px -1px #98000033;
 }
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
