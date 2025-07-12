@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. https://webflow.com --><!-- Last Published: Sat Jul 05 2025 21:43:23 GMT+0000 (Coordinated Universal Time) -->
+ <html data-wf-domain="kafwiki.com" data-wf-page="686938e0c7884d1aaf88030f" data-wf-site="68688d682b00e83820cb66ca" data-wf-status="1">
+    <head>
+        <meta charset="utf-8">
+    <meta content="summary_large_image" name="twitter:card">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Webflow" name="generator">
+    <link href="css files/characters.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+    <link href="https://file.garden/ZHvWeyN8xl0qbkTC/Favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="https://cdn.prod.website-files.com/img/webclip.png" rel="apple-touch-icon">
+</head>
+<body class="body">
+<div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
+            <a href="index.html" aria-current="page" class="brand w-nav-brand w--current"></a>
+            <nav role="navigation" class="w-nav-menu">
+                <a href="media" class="button-wiki w-button">Media</a>
+                <a href="characters" class="button-wiki w-button">Characters</a>
+                <a href="locations" class="button-wiki w-button">Locations</a>
+            </nav>
+            <div class="w-nav-button">
+                    <div class="w-icon-nav-menu"></div>
+            <div class="container w-container"></div>
+    </div>
+</div>
+<div class="div-block">
+    <div id="image-frame">
+        <div class="textbox">Appearance</div>
+        <div class="appearance-buttons">
+            <button onclick="changeAppearance('current')" class="pressed">Current</button>
+            <button onclick="changeAppearance('former')" class="">Former</button>
+        </div>
+        <div id="image-container">
+            <img src="Kasen.png">
+        </div>
+        <div class="infobox">
+            why... WHY?!
+        </div>
+    </div>
+    <div class="text-content">
+        <h1 style="text-align: left; padding-bottom: 42px; border-bottom: solid 1px #500;">Sabrina the Hunter</h1>
+            <div class="text-entry" style="text-align: left; right: 20px; color: red; font-size: 12px; font-family: Georgia, 'Times New Roman', Times, serif;">
+                <p>Sabrina wanted him so much, but she couldn't have him. She wanted him at all costs, so she made a deal—this deal. Lead to her becoming 
+                 <br>who she is now, a being whose only purpose is to capture.</p>
+            </div>
+            <div class="text-entry" style="text-align: left; right: 20px; color: red; font-size: 12px; font-family: Georgia, 'Times New Roman', Times, serif;">
+                <h2>Occupation</h2>
+                <p>As said before, she is a creature whose purpose is to capture people or living beings and bring them to her nest, in which she consumes them and feasts 
+                <br>upon their flesh.</p>
+            </div>
+            <div class="text-entry" style="text-align: left; right: 20px; color: red; font-size: 12px; font-family: Georgia, 'Times New Roman', Times, serif;">
+                <h2>Quotes</h2>
+                <i><p>"Did you miss me?"
+                <br>"I LOVE YOOOOOOOUUUUU 😭😭😭💔"
+                <br>"Wow, I am so hunger I could eat a <a href="horse.html">horse</a>."
+                <br>"( ͡° ͜ʖ ͡°)"</p></i>
+            </div>
+    </div>
+</div>
+
+<script> changeAppearance('current');
+function changeAppearance(appearance) {
+  const buttons = document.querySelectorAll('.appearance-buttons button');
+        buttons.forEach(btn => btn.classList.remove('pressed'));
+  const image = document.querySelector('#image-container img');
+       if (appearance === 'current') { image.src = 'Images/Sabrina.png';
+} else if (appearance === 'former') { image.src = 'Images/Prisab.png'; }
+  const pressedButton = Array.from(buttons).find(button => button.innerText.toLowerCase().includes(appearance)); pressedButton.classList.add('pressed'); }
+  const amb = new Audio('/irida/char.ogg'); amb.loop = true; setTimeout(()=>{amb.play()},256);
+</script>
+<audio autoplay loop>
+    <source src="Audio/presence.mp3" type="audio/mp3">
+</audio>
+</body>
+</html>
