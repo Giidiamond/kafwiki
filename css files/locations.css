@@ -2121,6 +2121,13 @@ textarea.w-input, textarea.w-select {
   padding-bottom: 20px;
 }
 
+#navbar-container {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
 .div-block {
   text-align: center;
   -webkit-text-fill-color: inherit;
