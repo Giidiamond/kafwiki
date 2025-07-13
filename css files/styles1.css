@@ -2114,6 +2114,17 @@ textarea.w-input, textarea.w-select {
   padding-bottom: 20px;
 }
 
+.black-background {
+  -webkit-text-fill-color: inherit;
+  mix-blend-mode: normal;
+  background-color: #000000;
+  background-size: auto;
+  background-clip: border-box;
+  border: 1px solid #ff0e0e;
+  border-radius: 2px;
+  right:  50px;
+}
+
 .div-block {
   -webkit-text-fill-color: inherit;
   mix-blend-mode: normal;
