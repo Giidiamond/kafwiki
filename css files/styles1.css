@@ -2157,14 +2157,15 @@ textarea.w-input, textarea.w-select {
 }
 
 .bg-sides {
-    background: url(../Images/Flesh-bg.png) center / cover;
-    position: fixed;
-    image-rendering: pixelated;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-    height: 100%;
-    min-height: 910px;
+  background: url(../Images/Flesh-bg.png) center / cover;
+  position: fixed;
+  image-rendering: pixelated;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  height: 100%;
+  min-height: 910px;
+  filter: brightness(0.6);
 }
 
 #left {
