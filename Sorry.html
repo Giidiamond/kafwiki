@@ -2,10 +2,26 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <style>
+            fadeIn {
+              width: 100px;
+              height: 100px;
+              background-color: red;
+              animation-name: fade;
+              animation-duration: 8s;
+            }
+
+            @keyframes fade {
+              0%   {opacity: 0;}
+              100% {opacity: 1;}
+            }
+        </style>
     </head>
 <body class="body-black">
-    <a href="Characters/Seemingly">
-        <img src="Images/SeeminglyBody.png">
-    </a>
+    <div class="fadeIn">
+        <a href="Characters/Seemingly">
+            <img src="Images/SeeminglyBody.png" style="width: 500px; position: fixed; right: 550px; top: 150px;">
+        </a>
+    </div>
 </body>
 </html>
