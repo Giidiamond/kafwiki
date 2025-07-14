@@ -2294,12 +2294,13 @@ textarea.w-input, textarea.w-select {
 }
 
 #subtextred {
-    transform: translate(-50%) translateY(8px);
-    text-align: end;
-    font-size: 16px;
-    font-family: Garamond;
-    position: fixed;
-    color: red;
+  transform: translate(-50%) translateY(8px);
+  text-align: end;
+  font-size: 16px;
+  font-family: Garamond;
+  position: fixed;
+  right: 560px;
+  color: red;
 }
 
 .infobox {
