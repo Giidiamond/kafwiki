@@ -2142,6 +2142,7 @@ textarea.w-input, textarea.w-select {
   right:  50px;
   position: relative;
   overflow: hidden;
+  max-width: 650px;
 }
 
 .div-block-chara {
