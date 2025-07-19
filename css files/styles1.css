@@ -2158,6 +2158,12 @@ textarea.w-input, textarea.w-select {
   margin-right: 195px;
 }
 
+.text-entry {
+    border-bottom: solid 1px #900;
+    margin-bottom: 10px;
+    line-height: 33px;
+}
+
 .div-block-game {
   text-align: center;
   -webkit-text-fill-color: inherit;
